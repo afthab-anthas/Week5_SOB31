@@ -5,16 +5,16 @@ def compare_numbers(number, user_guess):
     bulls = 0
     for i in range(len(number)):
         if user_guess[i] == number[i]:
-            bulls += 1  # Correct digit in correct position
+            bulls += 1  
         elif user_guess[i] in number:
-            cows += 1  # Correct digit in incorrect position
+            cows += 1  
     return cows, bulls
 
 
 playing = True
 number = str(random.randint(1000, 9999))
 guesses = 0
-print(number)  # You might want to hide this in the final version for gameplay!
+print(number)  
 
 print("Let's play a game of Cowbull!")  # Explanation
 print("I will generate a number, and you have to guess the numbers one digit at a time.")
