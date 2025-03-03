@@ -1,6 +1,6 @@
 import random
 
-def compare_numbers(number, user_guess):
+def compare_numbers(number, user_guess): ##AFTHAB M01033122
     cows = 0
     bulls = 0
     for i in range(len(number)):
