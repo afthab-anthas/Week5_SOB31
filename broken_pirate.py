@@ -1,5 +1,5 @@
-greeting = input("Hello, possible pirate! What's the password?")
-if greeting in ["Arrr!"]:
+greeting = input("Hello, possible pirate! What's the password?") ##Afthab M010133122
+if greeting in ["Arrr!"]: ##Afthab M010133122
 	print("Go away, pirate.")
-elif greeting:
+elif greeting: ##Afthab M010133122
     print("Greetings, hater of pirates!")
